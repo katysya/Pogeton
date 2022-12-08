@@ -1,0 +1,33 @@
+.card__img {
+    opacity: 1;
+}
+
+form {
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+}
+
+input[type=text] {
+    border: #383838 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input[type=submit] {
+    font-size: 20px;
+}
+
+.card__desc {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+    max-width: 100%;
+}
+
+.card__hashtags {
+    margin: 0;
+    flex-direction: row;
+    column-gap: 8px;
+}
